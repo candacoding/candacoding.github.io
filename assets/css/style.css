@@ -10,10 +10,10 @@ body {
 }
 
 a {
-  text-decoration: none;
-  font-size: 18px;
-  color: #ececec;
-  padding: 0 5px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #ececec;
+    padding: 0 5px;
 }
 
 section {
@@ -46,7 +46,10 @@ section {
 }
 
 #landing {
-  padding-bottom: 1px;
+    padding-bottom: 1px;
+    background: #141618;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 #landing img {
@@ -86,6 +89,14 @@ section {
   color: #ececec;
 }
 
+#menu-bottom a {
+  font-size: 18px;
+}
+
+#menu-bottom a{
+    font-size: 18px;
+}
+
 #images-payment {
   padding-bottom: 1px;
   padding-top: 1px;
@@ -107,9 +118,8 @@ section {
 }
 
 #footer h1 {
-  padding-bottom: 10px;
+  padding-top: 10px;
 }
-
 /* CLASS START */
 
 .btn {
@@ -133,15 +143,14 @@ section {
 
 .marquee {
   margin-bottom: 10px;
+  padding: 10px;
+  font-family: 'Montserrat';
+  font-style: italic;
   background: #ececec;
   border-radius: 20px;
-  padding: 0.5rem;
   border: 2px solid #041629;
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-style: italic;
-  /* line-height: 2px; */
 }
 
 .text-bottom p {
@@ -193,6 +202,7 @@ section {
 
 .container > #search {
   width: 100%;
+  /* height: 28px; */
   padding: 10px;
   background-color: white;
   border: 1px solid #212529;
@@ -202,6 +212,7 @@ section {
   color: #212529;
   padding-left: 45px;
   border-radius: 25px;
+  font-family: 'Montserrat';
 }
 
 .container > #search:focus {
@@ -217,4 +228,11 @@ section {
   margin-top: 12px;
   z-index: 1;
   color: #041629;
+}
+
+/* Responsive Media */
+@media screen and (max-width: 487px) {
+  header {
+    margin: 0 70%;
+  }
 }
