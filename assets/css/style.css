@@ -204,7 +204,7 @@ section {
   border-radius: 25px;
 }
 
-.container > #search:hover {
+.container > #search:focus {
   background-color: #041629;
   text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2);
   color: #ececec;
