@@ -10,10 +10,10 @@ body {
 }
 
 a {
-  text-decoration: none;
-  font-size: 12px;
-  color: #ececec;
-  padding: 0 5px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #ececec;
+    padding: 0 5px;
 }
 
 section {
@@ -46,10 +46,10 @@ section {
 }
 
 #landing {
-  padding-bottom: 1px;
-  background: #141618;
-  padding-bottom: 20px;
-  padding-top: 20px;
+    padding-bottom: 1px;
+    background: #141618;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 #landing img {
@@ -93,6 +93,10 @@ section {
   font-size: 18px;
 }
 
+#menu-bottom a{
+    font-size: 18px;
+}
+
 #images-payment {
   padding-bottom: 1px;
   padding-top: 1px;
@@ -116,7 +120,6 @@ section {
 #footer h1 {
   padding-top: 10px;
 }
-
 /* CLASS START */
 
 .btn {
