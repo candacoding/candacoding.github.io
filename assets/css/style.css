@@ -1,5 +1,5 @@
 * {
-  font-family: 'Monstserrat';
+  font-family: 'Montserrat';
 }
 
 html,
@@ -65,24 +65,38 @@ section {
   justify-content: space-between;
 }
 
+#categori div h2 {
+  /* color: #ececec; */
+  /* background: #ececec; */
+  font-size: 16px;
+  text-align: center;
+}
+
 #categori div {
   background: #041629;
   border: 1px solid #041629;
-  border-radius: 0px 0px 20px 20px;
+  /* border-radius: 0px 0px 20px 20px; */
+  border-radius: 20px;
+  color: #ececec;
   cursor: pointer;
 }
 
 #categori div:hover {
+  color: #041629;
   background: #ececec;
   border: 1px solid #ececec;
 }
 
-#categori div h2 {
-  background: #ececec;
-  text-align: center;
+#categori img {
+  border-radius: 20px;
+}
+
+#categori img:hover {
+  border-radius: 20px;
 }
 
 #menu-bottom {
+  font-family: 'Montserrat';
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -90,10 +104,7 @@ section {
 }
 
 #menu-bottom a {
-  font-size: 18px;
-}
-
-#menu-bottom a {
+  font-family: 'Montserrat';
   font-size: 18px;
 }
 
@@ -154,6 +165,7 @@ section {
 }
 
 .text-bottom p {
+  font-family: 'Montserrat';
   padding-right: 150px;
 }
 
