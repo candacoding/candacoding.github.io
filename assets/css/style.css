@@ -30,7 +30,7 @@ section {
   position: sticky;
   top: 0;
   background-color: #212529;
-  z-index: 1;
+  z-index: 100;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
@@ -43,6 +43,10 @@ section {
 #header h1:hover {
   color: #041629;
   font-style: italic;
+}
+
+.active {
+  color: lightskyblue;
 }
 
 #landing {
@@ -109,15 +113,25 @@ section {
 }
 
 #images-payment {
+  align-items: center;
+  margin: auto;
+  margin-top: 3rem;
   padding-bottom: 1px;
   padding-top: 1px;
 }
 
 #images-payment div img {
+  justify-content: center;
+  margin: auto;
   display: inline-flex;
   padding: 0 54px;
   background: #ececec;
   border-radius: 20px;
+}
+
+.payment {
+  display: flex;
+  justify-content: center;
 }
 
 #footer {
@@ -179,6 +193,81 @@ section {
 
 .bottom:hover {
   color: #041629;
+}
+
+/* New Footer */
+.footer {
+  background-color: #212529;
+
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  margin: 3rem 0;
+  margin-bottom: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  transition: all 0.3 ease;
+  align-items: center;
+  justify-content: center;
+}
+
+.row h1 {
+  font-size: 24px;
+  color: #326193;
+  margin-bottom: 2.5rem;
+  text-decoration: underline #041629 3px;
+  text-underline-offset: 10px;
+}
+
+.row a {
+  font-size: 16px;
+  padding: 4px;
+  color: #a3a3a3;
+  text-transform: capitalize;
+}
+
+.row a:hover {
+  padding-left: 8px;
+  color: #a3a3a3;
+}
+
+.footer-col-6 {
+  /* background-color: antiquewhite; */
+  text-indent: 10px;
+  width: 60%;
+  margin-right: 2rem;
+}
+
+.footer-col-2 {
+  margin-right: 2rem;
+  width: 20%;
+}
+
+.footer-col-6 p {
+  font-size: 16px;
+  margin-top: 5rem;
+  color: #999999;
+}
+
+.footer-col-6 h1 {
+  margin-top: 22px;
+}
+
+.cr h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  margin-top: 2rem;
+  padding-bottom: 10px;
+  margin-bottom: 0;
 }
 
 /* Animasi Header H1 */
