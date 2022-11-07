@@ -4,7 +4,7 @@ let btn = document.getElementById('myBtn');
 
 if (btn !== null) {
   btn.addEventListener('click', function () {
-    const land = document.querySelector('#landing');
+    const land = document.querySelector('.content');
     let nav = document.getElementById('navbar');
 
     nav.classList.toggle('show');
