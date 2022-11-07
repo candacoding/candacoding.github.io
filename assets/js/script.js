@@ -7,7 +7,10 @@ if (btn !== null) {
     const land = document.querySelector('.content');
     let nav = document.getElementById('navbar');
 
+    const bar = document.querySelector('.fa');
+
     nav.classList.toggle('show');
     land.classList.toggle('mt-land');
+    bar.classList.toggle('fa-times');
   });
 }
