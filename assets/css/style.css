@@ -146,6 +146,41 @@ section {
   justify-content: center;
 }
 
+.hargaclass{
+  background: #141618;
+  color: #ececec;
+  /* border: 2px solid #212529; */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 1);
+}
+
+.hargaclass
+
+.table {
+  align-items: center;
+  justify-content: space-between;
+  color: #ececec;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table, th, tbody, td {
+  border: 1px solid #ececec;
+  padding: 10px;
+
+}
+
+tbody td {
+  text-align: center;
+}
+
+.stat {
+  background: #04b956;
+  padding: 6px;
+  font-weight: bold;
+}
+
 #footer {
   text-align: center;
   color: #ececec;
