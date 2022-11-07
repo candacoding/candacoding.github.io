@@ -25,16 +25,33 @@
   <body>
     <header id="header">
       <h1>JASAJOKI</h1>
-      <nav>
-        <a href="" class="btn fa fa-home active"> Home</a>
-        <a href="" class="btn fa fa-newspaper"> Berita & Promo</a>
-        <a href="" class="btn fa fa-tag"> Daftar Harga</a>
-        <a href="" class="btn fa fa-light fa-cart-shopping"> Cek Transaksi</a>
-        <a href="" class="btn login fa fa-sign-in-alt"> Login</a>
+      <button class="btn-nav" id="myBtn">
+        <span class="fa fa-bars fa-xl"></span>
+      </button>
+      <nav class="nav" id="navbar">
+        <ul>
+          <li>
+            <a href="" class="btn fa fa-home active"> Home</a>
+          </li>
+          <li>
+            <a href="" class="btn fa fa-newspaper"> Berita & Promo</a>
+          </li>
+          <li>
+            <a href="" class="btn fa fa-tag"> Daftar Harga</a>
+          </li>
+          <li>
+            <a href="" class="btn fa fa-light fa-cart-shopping">
+              Cek Transaksi</a
+            >
+          </li>
+          <li>
+            <a href="" class="btn login fa fa-sign-in-alt"> Login</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <!-- Images Iklan Start -->
-    <section id="landing">
+    <section id="landing" class="landing">
       <marquee class="marquee"
         >Selamat Datang di Website JASA JOKI | Ohayoooooo Mina Saaaannnn
         !</marquee
@@ -147,5 +164,7 @@
     <!-- Images payment Start -->
 
     <!-- Footer End -->
+
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
