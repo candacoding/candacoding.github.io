@@ -382,8 +382,9 @@ section {
     display: grid;
     grid-template-columns: auto;
     top: 3rem;
+    left: -100%;
     opacity: 0;
-    transition: all 0.3s ease-out;
+    transition: all 1s ease-in-out;
   }
 
   .nav ul {
@@ -411,10 +412,12 @@ section {
     display: inline-block;
     width: 100%;
     position: absolute;
-    /* margin-top: 13.65rem; */
-    transition: all 0.75s ease-in-out;
     opacity: 1;
-    top: 3rem;
+    left: 0;
+  }
+
+  .content{
+    transition: all 1s ease-in-out;
   }
 
   /* Tutup Headerr */
@@ -434,7 +437,8 @@ section {
   .mt-land {
     position: absolute;
     margin-top: 14.5rem;
-    transition: all 0.75s ease-in-out;
+    /* transition: all 0.75s ease-in-out; */
+    width: 100%;
     /* transition: all 0.8s ease-in; */
   }
 
