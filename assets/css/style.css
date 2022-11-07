@@ -45,6 +45,18 @@ section {
   font-style: italic;
 }
 
+#header ul {
+  list-style-type: none;
+}
+
+#header li {
+  display: inline;
+}
+
+#header button {
+  display: none;
+}
+
 .active {
   color: lightskyblue;
 }
@@ -333,7 +345,102 @@ section {
 
 /* Responsive Media */
 @media screen and (max-width: 487px) {
-  header {
-    margin: 0 70%;
+  #header {
+    width: 100%;
+    background-color: #212529;
+    padding: 0;
+    box-shadow: 0 0.5rem 1rem #041629;
+    /* position: relative; */
+    max-height: 50px;
   }
+
+  #header h1 {
+    font-size: 20px;
+    margin-left: 1.5rem;
+  }
+
+  #header button {
+    display: flex;
+  }
+
+  .btn-nav {
+    background-color: transparent;
+    margin-right: 1.5rem;
+    outline: 0;
+    border: 0;
+  }
+
+  .fa-bars {
+    color: white;
+  }
+
+  .nav {
+    background-color: #041629;
+    margin-top: 0;
+    width: 100%;
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto;
+    top: 3rem;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+  }
+
+  .nav ul {
+    padding: 0;
+    margin: 0.5rem 0;
+  }
+
+  li {
+    display: block;
+  }
+
+  .btn {
+    display: block;
+    font-size: 16px;
+    padding: 14px 24px;
+    margin: 0;
+  }
+
+  .btn:hover {
+    background-color: #ececec;
+    color: #041629;
+  }
+
+  .show {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    /* margin-top: 13.65rem; */
+    transition: all 0.75s ease-in-out;
+    opacity: 1;
+    top: 3rem;
+  }
+
+  /* Tutup Headerr */
+
+  /* Landing */
+
+  #landing {
+    padding: 0;
+  }
+
+  .landing {
+    width: 100%;
+    padding: 0;
+    margin-top: 0.5rem;
+  }
+
+  .mt-land {
+    position: absolute;
+    margin-top: 14.5rem;
+    transition: all 0.75s ease-in-out;
+    /* transition: all 0.8s ease-in; */
+  }
+
+  .marquee {
+    font-size: 14px;
+  }
+
+  /* Tutup Landing */
 }
