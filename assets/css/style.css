@@ -103,6 +103,14 @@ section {
   border: 1px solid #ececec;
 }
 
+#categori a {
+  padding: 0;
+}
+
+#categori a:hover {
+  color: black;
+}
+
 #categori img {
   border-radius: 20px;
 }
@@ -146,7 +154,7 @@ section {
   justify-content: center;
 }
 
-.hargaclass{
+.hargaclass {
   background: #141618;
   color: #ececec;
   /* border: 2px solid #212529; */
@@ -163,10 +171,12 @@ section {
   border-collapse: collapse;
 }
 
-.table, th, tbody, td {
+.table,
+th,
+tbody,
+td {
   border: 1px solid #ececec;
   padding: 10px;
-
 }
 
 tbody td {
