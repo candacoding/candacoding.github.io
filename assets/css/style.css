@@ -536,8 +536,8 @@ tbody td {
     scrollbar-width: none;
   }
 
-  #categori img {
-    display: block;
+  #categori a {
+    padding: 0;
   }
 
   /* Footer */
