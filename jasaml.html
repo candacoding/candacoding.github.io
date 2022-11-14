@@ -53,7 +53,7 @@
         <div class="info-peraturan">
           <img src="assets/images/ml.jpg" alt="Mobile Legends" class="jasa-img">
           <h2>Mobile Legends</h2>
-          <h3>PROSES : OTOMATIS / MANUAL</h3>
+          <h3>PROSES : MANUAL</h3>
           <p>Syarat & Ketentuan berlaku harapkan membaca terlebih dahulu</p> </br>
           <p>Tutorial mengisi Data Joki Mobile Legends :</p> </br>
           <p>1. Masukkan ID (SERVER),Email,Password Anda</p>
@@ -63,21 +63,78 @@
           <p>5. Klik beli & lakukan pembayaran</p>
           <p>6. Tunggu hingga proses joki selesai </br>(akan di infokan melalui Email & WhatsApp)</p>
         </div>
-        <div class="info-harga">
-          <h2>Masukkan data Account</h2>
-          <div>
-            <label for="">ID</label>
-            <input id="" type="text" placeholder="Masukkan ID" name="ID ML" required>
+          <div class="info-harga">
+            <h2>Masukkan data Account</h2>
+            <div>
+              <label for="">ID</label>
+              <input id="" type="text" placeholder="Masukkan ID" name="ID ML" required>
+            </div>
+          </br> 
+            <div>
+              <label for="">SERVER</label>
+              <input id="" type="text" placeholder="Masukkan Server" name="SERVER ML" required>
+            </div>
+          </br>
+            <div>
+              <label for="">Email</label>
+              <input id="" type="email" placeholder="Masukkan Email" name="EMAIL ML" required>
+            </div>
+          </br>
+            <div>
+              <label for="">Password</label>
+              <input id="" type="password" placeholder="Masukkan Password" name="Password ML" required>
+            </div>
+            <h2>Pilih Jasa yang akan di Joki</h2>
+            <div class="info-nominal">
+                <div class="info-tier-input">
+                    <h4>Epic</h4>
+                    <img src="assets/images/layanan/ml/epic1.png" alt="">
+                    <input type="radio" name="epic" value="epic">
+                </div>
+                <div class="info-tier-input">
+                  <h4>Legend</h4>
+                  <img src="assets/images/layanan/ml/legend.png" alt="">
+                  <input type="radio" name="legend" value="legend">
+              </div>
+              <div class="info-tier-input">
+                <h4>Mythic</h4>
+                <img src="assets/images/layanan/ml/mythic.png" alt="">
+                <input type="radio" name="mythic" value="mythic">
+            </div>
+            <div class="info-tier-input">
+              <h4>Mythical Glory</h4>
+              <img src="assets/images/layanan/ml/mythical.png" alt="">
+              <input type="radio" name="mythical" value="mythical">
+            </div>
           </div>
-          <div>
-            <label for="">SERVER</label>
-            <input id="" type="text" placeholder="Masukkan Server" name="SERVER ML" required>
+          <br>
+          <div class="info-select">
+            <form action="/action_page.php">
+              <label for="">Daftar Layanan Tier :</label>
+              <select name="info-select-tier" id="">
+                <option value="epic">1 Bintang (Epic)</option>
+                <option value="legend">1 Bintang (Legend)</option>
+                <option value="mythic">Mythic Graiding</option>
+                <option value="mythicglory">Per Point (Mythic IV-I)</option>
+                <option value="mythicglory">Mythic Glory</option>
+              </select>
+            
           </div>
-        </div>
-        <div class="info-nominal">
-          <h2>Pilih Jasa yang akan di Joki</h2>
-          <div>
-
+          <br>
+          <div class="info-tambahan-jumlah">
+            <label for="">Jumlah Bintang</label>
+            <input id="" type="number" placeholder="Masukkan Jumlah Bintang">
+          </div>
+          <br>
+          <div class="info-tambahan-pesan">
+            <label for="">Pesan / Informasi tambahan</label>
+            <input id="" type="text" placeholder="Masukkan Informasi Tambahan">
+          </div>
+          <br>
+          <div class="info-harga">
+            <h2>Total Harga</h2>
+            <span>Rp.</span>
+            <input type="number" name="harga" value="harga">
           </div>
         </div>
       </div>
