@@ -1,174 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Style Sheets -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <!-- Style Sheets End -->
-    <title>Jasa Joki | Home</title>
-  </head>
-  <body>
-    <header id="header">
-      <h1>JASAJOKI</h1>
-      <button class="btn-nav" id="myBtn">
-        <span class="fa fa-bars fa-xl"></span>
-      </button>
-      <nav class="nav" id="navbar">
-        <ul>
-          <li>
-            <a href="" class="btn fa fa-home active"> Home</a>
-          </li>
-          <li>
-            <a href="" class="btn fa fa-newspaper"> Berita & Promo</a>
-          </li>
-          <li>
-            <a href="daftar-harga.html" class="btn fa fa-tag"> Daftar Harga</a>
-          </li>
-          <li>
-            <a href="" class="btn login fa fa-sign-in-alt"> Login</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <div class="content">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="assets/images/logo.png">
+  <!-- Style Sheets -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+  <!-- Style Sheets End -->
+  <title>Jasa Joki | Home</title>
+</head>
+
+<body>
+  <header id="header">
+    <!-- <img src="assets/images/logo.png" alt="logo" class="logo"> -->
+    <h1>JASAJOKI</h1>
+    <button class="btn-nav" id="myBtn">
+      <span class="fa fa-bars fa-xl"></span>
+    </button>
+    <nav class="nav" id="navbar">
+      <ul>
+        <li>
+          <a href="" class="btn fa fa-home active"> Home</a>
+        </li>
+        <li>
+          <a href="" class="btn fa fa-newspaper"> Berita & Promo</a>
+        </li>
+        <li>
+          <a href="daftarharga/1.html" class="btn fa fa-tag"> Daftar Harga</a>
+        </li>
+        <li>
+          <a href="" class="btn login fa fa-sign-in-alt"> Login</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="loading">
+      <h2>LOADING DEK...</h2>
+    </div>
+  </header>
+  <div class="content">
     <!-- Images Iklan Start -->
     <section id="landing">
       <marquee class="marquee">Selamat Datang di Website JASA JOKI | Ohayoooooo Mina Saaaannnn !</marquee>
       <div>
-          <img src="assets/images/jasajoki.png" alt="iklan">
+        <img src="assets/images/jasajoki.png" alt="iklan">
       </div>
-  </section>
-      <!-- Images Iklan End -->
+    </section>
+    <!-- Images Iklan End -->
 
-      <!-- Search Start -->
-      <section class="search-sect">
-        <div class="container">
-          <span class="icon-span"><i class="fa fa-search"></i></span>
-          <input type="search" id="search" placeholder="Search Jasa Joki" />
+    <!-- Search Start -->
+    <section class="search-sect">
+      <div class="container">
+        <span class="icon-span"><i class="fa fa-search"></i></span>
+        <input type="search" id="search" placeholder="Search Jasa Joki" />
+      </div>
+    </section>
+    <br />
+    <!-- Search End -->
+
+    <!-- Categori Start -->
+    <section id="categori">
+      <a href="jasaml.html">
+        <div>
+          <img src="assets/images/ml.jpg" class="categori-images" alt="Mobile Legends" href="jasaml.html" />
+          <h2>Mobile Legends</h2>
+        </div>
+      </a>
+      <div>
+        <img src="assets/images/ff.jpg" class="categori-images" alt="Free Fire" />
+        <h2>Free Fire</h2>
+      </div>
+      <div>
+        <img src="assets/images/genshin.jpg" class="categori-images" alt="Genshin Impact" />
+        <h2>Genshin Impact</h2>
+      </div>
+      <div>
+        <img src="assets/images/aov.jpg" class="categori-images" alt="Arena Of Valor" />
+        <h2>Arena Of Valor</h2>
+      </div>
+    </section>
+    <!-- Categori End -->
+
+    <!-- New Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-6">
+            <h1>JASAJOKI</h1>
+            <p>
+              JASAJOKI adalah sebuah website jasa joki Game. <br />
+              &nbsp; Aman, Terpercaya & Amanah. Open 24 Jam dengan payment
+              terlengkap Indonesia
+            </p>
+          </div>
+          <div class="footer-col-2">
+            <h1>Menu</h1>
+            <div>
+              <nav>
+                <a href="" class="btn bottom">Home</a>
+                <a href="" class="btn bottom">Login</a>
+                <a href="" class="btn bottom">Register</a>
+              </nav>
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <h1>Chat Us</h1>
+            <div>
+              <nav>
+                <a href="" class="btn bottom fa-brands fa-whatsapp">&nbsp; WhatsApp</a>
+                <a href="" class="btn bottom fa-brands fa-instagram">&nbsp; Instagram</a>
+                <a href="" class="btn bottom fa-regular fa-envelope">&nbsp; Email Us</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section id="images-payment">
+        <div class="payment">
+          <img src="assets/images/briva.png" alt="briva" />
+          <img src="assets/images/bank_bca.png" alt="bca" />
+          <img src="assets/images/bank_bri.png" alt="bri" />
+          <img src="assets/images/mandiri.png" alt="mandiri" />
+          <img src="assets/images/gopay.png" alt="gopay" />
+          <img src="assets/images/ovo.png" alt="ovo" />
         </div>
       </section>
-      <br />
-      <!-- Search End -->
+      <!-- images payment end -->
 
-      <!-- Categori Start -->
-      <section id="categori">
-        <a href="jasaml.html">
-          <div>
-            <img
-              src="assets/images/ml.jpg"
-              class="categori-images"
-              alt="Mobile Legends"
-              href="jasaml.html"
-            />
-            <h2>Mobile Legends</h2>
-          </div>
-        </a>
+      <!-- Footer start -->
 
-        <div>
-          <img
-            src="assets/images/ff.jpg"
-            class="categori-images"
-            alt="Free Fire"
-          />
-          <h2>Free Fire</h2>
-        </div>
-        <div>
-          <img
-            src="assets/images/genshin.jpg"
-            class="categori-images"
-            alt="Genshin Impact"
-          />
-          <h2>Genshin Impact</h2>
-        </div>
-        <div>
-          <img
-            src="assets/images/aov.jpg"
-            class="categori-images"
-            alt="Arena Of Valor"
-          />
-          <h2>Arena Of Valor</h2>
-        </div>
-      </section>
-      <!-- Categori End -->
+      <div class="cr">
+        <h1>© 2022 JASAJOKI</h1>
+      </div>
+    </footer>
 
-      <!-- New Footer -->
-      <footer class="footer">
-        <div class="container">
-          <div class="row">
-            <div class="footer-col-6">
-              <h1>JASAJOKI</h1>
-              <p>
-                JASAJOKI adalah sebuah website jasa joki Game. <br />
-                &nbsp; Aman, Terpercaya & Amanah. Open 24 Jam dengan payment
-                terlengkap Indonesia
-              </p>
-            </div>
-            <div class="footer-col-2">
-              <h1>Menu</h1>
-              <div>
-                <nav>
-                  <a href="" class="btn bottom">Home</a>
-                  <a href="" class="btn bottom">Login</a>
-                  <a href="" class="btn bottom">Register</a>
-                </nav>
-              </div>
-            </div>
-            <div class="footer-col-2">
-              <h1>Chat Us</h1>
-              <div>
-                <nav>
-                  <a href="" class="btn bottom fa-brands fa-whatsapp"
-                    >&nbsp; WhatsApp</a
-                  >
-                  <a href="" class="btn bottom fa-brands fa-instagram"
-                    >&nbsp; Instagram</a
-                  >
-                  <a href="" class="btn bottom fa-regular fa-envelope"
-                    >&nbsp; Email Us</a
-                  >
-                </nav>
-              </div>
-            </div>
-          </div>
-        </div>
-        <section id="images-payment">
-          <div class="payment">
-            <img src="assets/images/briva.png" alt="briva" />
-            <img src="assets/images/bank_bca.png" alt="bca" />
-            <img src="assets/images/bank_bri.png" alt="bri" />
-            <img src="assets/images/mandiri.png" alt="mandiri" />
-            <img src="assets/images/gopay.png" alt="gopay" />
-            <img src="assets/images/ovo.png" alt="ovo" />
-          </div>
-        </section>
-        <!-- images payment end -->
+    <!-- Images payment Start -->
 
-        <!-- Footer start -->
+    <!-- Footer End -->
+  </div>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
 
-        <div class="cr">
-          <h1>© 2022 JASAJOKI</h1>
-        </div>
-      </footer>
-
-      <!-- Images payment Start -->
-
-      <!-- Footer End -->
-    </div>
-    <script src="assets/js/script.js"></script>
-  </body>
 </html>
